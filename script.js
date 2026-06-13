@@ -1,7 +1,7 @@
 // DOM ELEMENTS
 
 const productGrid =
-  document.getElementById("products");
+  document.getElementById("products-section");
 
 const searchInput =
   document.getElementById("searchInput");
@@ -15,7 +15,7 @@ const cartItems =
 const totalPrice =
   document.getElementById("totalPrice");
 
-// STATE
+// CART STATE
 
 let cart = [];
 
@@ -43,7 +43,7 @@ function renderProducts(items) {
 
         <h3>${product.name}</h3>
 
-        <p>₹${product.price}</p>
+        <p><strong>₹${product.price}</strong></p>
 
         <p>${product.category}</p>
 
@@ -148,6 +148,6 @@ categoryFilter.addEventListener(
   filterProducts
 );
 
-// INITIAL LOAD
+// INITIAL RENDER
 
 renderProducts(products);

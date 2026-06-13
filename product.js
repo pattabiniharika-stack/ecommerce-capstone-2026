@@ -4,14 +4,14 @@ const products = [
 
     id: 1,
 
-    name: "Laptop",
+    name: "Gaming Laptop",
 
     category: "Electronics",
 
-    price: 65000,
+    price: 85000,
 
     image:
-      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853"
+      "https://via.placeholder.com/300x220?text=Gaming+Laptop"
 
   },
 
@@ -19,14 +19,14 @@ const products = [
 
     id: 2,
 
-    name: "Smartphone",
+    name: "iPhone 15",
 
     category: "Electronics",
 
-    price: 30000,
+    price: 75000,
 
     image:
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9"
+      "https://via.placeholder.com/300x220?text=iPhone+15"
 
   },
 
@@ -34,14 +34,119 @@ const products = [
 
     id: 3,
 
-    name: "Headphones",
+    name: "Wireless Headphones",
 
     category: "Accessories",
 
-    price: 2500,
+    price: 3500,
 
     image:
-      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e"
+      "https://via.placeholder.com/300x220?text=Headphones"
+
+  },
+
+  {
+
+    id: 4,
+
+    name: "Smart Watch",
+
+    category: "Accessories",
+
+    price: 4500,
+
+    image:
+      "https://via.placeholder.com/300x220?text=Smart+Watch"
+
+  },
+
+  {
+
+    id: 5,
+
+    name: "Bluetooth Speaker",
+
+    category: "Accessories",
+
+    price: 2800,
+
+    image:
+      "https://via.placeholder.com/300x220?text=Speaker"
+
+  },
+
+  {
+
+    id: 6,
+
+    name: "DSLR Camera",
+
+    category: "Electronics",
+
+    price: 62000,
+
+    image:
+      "https://via.placeholder.com/300x220?text=Camera"
+
+  },
+
+  {
+
+    id: 7,
+
+    name: "Mechanical Keyboard",
+
+    category: "Accessories",
+
+    price: 2200,
+
+    image:
+      "https://via.placeholder.com/300x220?text=Keyboard"
+
+  },
+
+  {
+
+    id: 8,
+
+    name: "Gaming Mouse",
+
+    category: "Accessories",
+
+    price: 1500,
+
+    image:
+      "https://via.placeholder.com/300x220?text=Gaming+Mouse"
+
+  },
+
+  {
+
+    id: 9,
+
+    name: "4K Monitor",
+
+    category: "Electronics",
+
+    price: 18000,
+
+    image:
+      "https://via.placeholder.com/300x220?text=4K+Monitor"
+
+  },
+
+  {
+
+    id: 10,
+
+    name: "Tablet",
+
+    category: "Electronics",
+
+    price: 25000,
+
+    image:
+      "https://via.placeholder.com/300x220?text=Tablet"
 
   }
 
