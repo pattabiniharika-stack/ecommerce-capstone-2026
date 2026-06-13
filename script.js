@@ -1,7 +1,7 @@
 // DOM ELEMENTS
 
 const productGrid =
-  document.getElementById("products-section");
+  document.getElementById("products");
 
 const searchInput =
   document.getElementById("searchInput");
