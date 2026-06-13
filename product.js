@@ -11,7 +11,7 @@ const products = [
     price: 85000,
 
     image:
-      "https://via.placeholder.com/300x220?text=Gaming+Laptop"
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600"
 
   },
 
@@ -26,7 +26,7 @@ const products = [
     price: 75000,
 
     image:
-      "https://via.placeholder.com/300x220?text=iPhone+15"
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600"
 
   },
 
@@ -34,14 +34,14 @@ const products = [
 
     id: 3,
 
-    name: "Wireless Headphones",
+    name: "Headphones",
 
     category: "Accessories",
 
     price: 3500,
 
     image:
-      "https://via.placeholder.com/300x220?text=Headphones"
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600"
 
   },
 
@@ -56,7 +56,7 @@ const products = [
     price: 4500,
 
     image:
-      "https://via.placeholder.com/300x220?text=Smart+Watch"
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600"
 
   },
 
@@ -64,14 +64,14 @@ const products = [
 
     id: 5,
 
-    name: "Bluetooth Speaker",
+    name: "Gaming Mouse",
 
     category: "Accessories",
 
-    price: 2800,
+    price: 1800,
 
     image:
-      "https://via.placeholder.com/300x220?text=Speaker"
+      "https://images.unsplash.com/photo-1527814050087-3793815479db?w=600"
 
   },
 
@@ -79,74 +79,14 @@ const products = [
 
     id: 6,
 
-    name: "DSLR Camera",
-
-    category: "Electronics",
-
-    price: 62000,
-
-    image:
-      "https://via.placeholder.com/300x220?text=Camera"
-
-  },
-
-  {
-
-    id: 7,
-
-    name: "Mechanical Keyboard",
-
-    category: "Accessories",
-
-    price: 2200,
-
-    image:
-      "https://via.placeholder.com/300x220?text=Keyboard"
-
-  },
-
-  {
-
-    id: 8,
-
-    name: "Gaming Mouse",
-
-    category: "Accessories",
-
-    price: 1500,
-
-    image:
-      "https://via.placeholder.com/300x220?text=Gaming+Mouse"
-
-  },
-
-  {
-
-    id: 9,
-
     name: "4K Monitor",
-
-    category: "Electronics",
-
-    price: 18000,
-
-    image:
-      "https://via.placeholder.com/300x220?text=4K+Monitor"
-
-  },
-
-  {
-
-    id: 10,
-
-    name: "Tablet",
 
     category: "Electronics",
 
     price: 25000,
 
     image:
-      "https://via.placeholder.com/300x220?text=Tablet"
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600"
 
   }
 

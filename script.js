@@ -1,5 +1,3 @@
-// DOM ELEMENTS
-
 const productGrid =
   document.getElementById("products");
 
@@ -15,11 +13,9 @@ const cartItems =
 const totalPrice =
   document.getElementById("totalPrice");
 
-// CART STATE
-
 let cart = [];
 
-// RENDER PRODUCTS
+/* RENDER PRODUCTS */
 
 function renderProducts(items) {
 
@@ -43,14 +39,14 @@ function renderProducts(items) {
 
         <h3>${product.name}</h3>
 
-        <p><strong>₹${product.price}</strong></p>
+        <p>₹${product.price}</p>
 
         <p>${product.category}</p>
 
-        <button
-          onclick="addToCart(${product.id})"
-        >
+        <button onclick="addToCart(${product.id})">
+
           Add to Cart
+
         </button>
 
       </div>
@@ -63,7 +59,7 @@ function renderProducts(items) {
 
 }
 
-// ADD TO CART
+/* ADD TO CART */
 
 function addToCart(id) {
 
@@ -76,7 +72,7 @@ function addToCart(id) {
 
 }
 
-// RENDER CART
+/* RENDER CART */
 
 function renderCart() {
 
@@ -103,11 +99,11 @@ function renderCart() {
 
 }
 
-// SEARCH + FILTER
+/* FILTER PRODUCTS */
 
 function filterProducts() {
 
-  const searchText =
+  const search =
     searchInput.value.toLowerCase();
 
   const category =
@@ -119,7 +115,7 @@ function filterProducts() {
       const matchesSearch =
         product.name
           .toLowerCase()
-          .includes(searchText);
+          .includes(search);
 
       const matchesCategory =
         category === "all" ||
@@ -136,7 +132,7 @@ function filterProducts() {
 
 }
 
-// EVENTS
+/* EVENTS */
 
 searchInput.addEventListener(
   "input",
@@ -148,6 +144,6 @@ categoryFilter.addEventListener(
   filterProducts
 );
 
-// INITIAL RENDER
+/* INITIAL LOAD */
 
 renderProducts(products);
