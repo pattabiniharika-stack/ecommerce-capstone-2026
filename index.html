@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>E-Commerce Catalog</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- HEADER -->
+
+  <header>
+
+    <h1>🛒 E-Commerce Store</h1>
+
+    <nav>
+
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#cart">Cart</a>
+
+    </nav>
+
+  </header>
+
+  <!-- HERO -->
+
+  <section class="hero" id="home">
+
+    <h2>Modern Shopping Experience</h2>
+
+    <p>
+      Browse latest products with responsive UI.
+    </p>
+
+  </section>
+
+  <!-- SEARCH -->
+
+  <section class="controls">
+
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="Search products..."
+    >
+
+    <select id="categoryFilter">
+
+      <option value="all">
+        All Categories
+      </option>
+
+      <option value="Electronics">
+        Electronics
+      </option>
+
+      <option value="Accessories">
+        Accessories
+      </option>
+
+    </select>
+
+  </section>
+
+  <!-- PRODUCTS -->
+
+  <main
+    class="product-grid"
+    id="products"
+  ></main>
+
+  <!-- CART -->
+
+  <section class="cart-section" id="cart">
+
+    <h2>🛍 Cart</h2>
+
+    <ul id="cartItems"></ul>
+
+    <h3 id="totalPrice">
+      Total: ₹0
+    </h3>
+
+  </section>
+
+  <script src="products.js"></script>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
